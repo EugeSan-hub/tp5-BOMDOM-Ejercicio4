@@ -13,26 +13,24 @@ main{
 
 .reloj {
     text-align: center;
-    background: rgba(0, 0, 0, 0.3);
+    background: rgba(36, 39, 221, 0.3);
     padding: 20px;
     border-radius: 10px;
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 0px 20px rgba(32, 54, 155, 0.5);
 }
 .reloj .fecha {
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 40px;
+    margin-bottom: 5px;
 }
 .reloj .hora {
-    font-size: 60px;
+    font-size: 80px;
     display: flex;
     justify-content: center;
     align-items: baseline;
 }
-.reloj .hora span {
-    margin: 0 5px;
-}
+
 .reloj .hora .ampm {
     font-size: 20px;
-    margin-left: 10px;
+    margin-left: 5px;
     align-self: flex-end;
 }
